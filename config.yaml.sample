@@ -1,0 +1,5 @@
+DELAY_IN_SECONDS: 300
+SEARCH_RESULT_URLS:
+  - https://www.tokopedia.com/search?goldmerchant=true&ob=9&pmax=4000000&pmin=2500000&shop_tier=3&st=product&q=rx%20580
+  - https://www.tokopedia.com/search?goldmerchant=true&ob=9&pmax=390000&pmin=285000&shop_tier=3&st=product&q=final%20fantasy%20remake%20ps4
+  - https://www.tokopedia.com/search?ob=9&pmax=530000&pmin=390000&st=product&q=miles%20morales%20ps4
