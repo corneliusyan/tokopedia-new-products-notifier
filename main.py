@@ -55,8 +55,8 @@ while True:
     titles, prices = get_products(url)
 
     new_map = {}
-    for i in range(len(titles)):
-      new_map[titles[i]] = prices[i]
+    for j in range(len(titles)):
+      new_map[titles[j]] = prices[j]
 
     diff_map = new_map.copy()
     for old_title, old_price in old_map.items():
@@ -70,7 +70,7 @@ while True:
       notify(title=price, message=title,  url=url)
       time.sleep(2)
 
-    old_map = new_map
+    old_maps[i] = new_map.copy()
 
   iteration += 1
   time.sleep(delay)
