@@ -13,7 +13,7 @@ with open("config.yaml", 'r') as stream:
   except yaml.YAMLError as exc:
     print(exc)
 
-title_class = 'css-18c4yhp'
+title_class = 'css-1f4mp12'
 price_class = 'css-rhd610'
 
 
